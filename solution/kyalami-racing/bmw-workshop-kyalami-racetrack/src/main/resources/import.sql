@@ -1,0 +1,6 @@
+INSERT INTO racetrack(id, raceDate, winner, winnerBrand, winnerModel, winnerCarYear, winnerTorque, winnerZeroToHundred, winnerTopSpeed, looser, looserBrand, looserModel, looserCarYear, looserTorque, looserZeroToHundred, looserTopSpeed)
+VALUES(nextval('hibernate_sequence'), current_timestamp, 'BMW - BMW 328', 'BMW', 'BMW 328', 1936, 350, 5.6, 250, 'Chevrolet - Camaro ZL1', 'Chevrolet', 'Camaro ZL1', 2021, 650, 3.7, 318);
+INSERT INTO racetrack(id, raceDate, winner, winnerBrand, winnerModel, winnerCarYear, winnerTorque, winnerZeroToHundred, winnerTopSpeed, looser, looserBrand, looserModel, looserCarYear, looserTorque, looserZeroToHundred, looserTopSpeed)
+VALUES(nextval('hibernate_sequence'), current_timestamp, 'Ford - Mustang', 'Ford', 'Mustang', 2018, 556, 4.5, 250, 'BMW - BMW M1 Procar', 'BMW', 'BMW M1 Procar', 1979, 383, 3.1, 260);
+INSERT INTO racetrack(id, raceDate, winner, winnerBrand, winnerModel, winnerCarYear, winnerTorque, winnerZeroToHundred, winnerTopSpeed, looser, looserBrand, looserModel, looserCarYear, looserTorque, looserZeroToHundred, looserTopSpeed)
+VALUES(nextval('hibernate_sequence'), current_timestamp, 'Toyota - TRD Camry', 'Toyota', 'TRD Camry', 2021, 267, 5.1, 315, 'BMW - BMW E30 M3', 'BMW', 'BMW E30 M3', 1987, 240, 6.5, 235);

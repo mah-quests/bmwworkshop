@@ -1,0 +1,14 @@
+starter\za\co\bmw\workshop\starter\client\Service.class
+starter\za\co\bmw\workshop\starter\health\ServiceReadyHealthCheck.class
+starter\za\co\bmw\workshop\starter\openapi\BookingController.class
+starter\za\co\bmw\workshop\starter\secure\MPJWTToken.class
+starter\za\co\bmw\workshop\starter\secure\TestSecureController.class
+starter\za\co\bmw\workshop\starter\metric\MetricController.class
+starter\za\co\bmw\workshop\starter\config\ConfigTestController.class
+starter\za\co\bmw\workshop\starter\health\ServiceLiveHealthCheck.class
+starter\za\co\bmw\workshop\starter\ZacobmwworkshopstarterRestApplication.class
+starter\za\co\bmw\workshop\starter\HelloController.class
+starter\za\co\bmw\workshop\starter\client\ClientController.class
+starter\za\co\bmw\workshop\starter\openapi\Destination.class
+starter\za\co\bmw\workshop\starter\openapi\Booking.class
+starter\za\co\bmw\workshop\starter\resilient\ResilienceController.class
