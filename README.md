@@ -1,6 +1,7 @@
-# bmwworkshop
-A 5 day Quarkus Microservice Course in South Africa, Pretoria
-
+Training: BMW South Africa
+Dates: 31 October to 04 November
+Trainer: Thato Mohono (+27 82 556 1420)
+Workshop Details: Java and Microservers using Quarkus
 
 
 Introductions: 
@@ -28,13 +29,9 @@ o Profile (linkedin, etc)
 * Everyone to introduce themselves
 o Tell us your name
 o Tell us your experience with Java/C# or Python (or any other programming languages)
-o Whatï¿½s the nicest project youï¿½ve gotten involved in, and your contribution 
+o What’s the nicest project you’ve gotten involved in, and your contribution 
 o What are your expectations of the course
 o Tell us a joke 
-
-Until 10.00 
-10.00 ï¿½ 10.15 (Break)
-Start 10.15 
 
 
 Day 01
@@ -51,25 +48,25 @@ o JavaME (Java Micro Edition)
 o JavaFX (Java Form Follows Functions)
 * Java History and versions
 o JDK 1.0 (Oak)- January 1996
-o JDK 1.1 ï¿½ February 1997
-o J2SE 1.2 (Playground) ï¿½ December 1998
-o J2SE 1.3 (Kestrel) ï¿½ May 2000
-o J2SE 1.4 (Merlin) ï¿½ February 2002
-o J2SE 5.0 (Tiger) ï¿½ September 2004
-o Java SE 6 (Mustang) ï¿½ December 2006
-o Java SE 7 (Dolphin) ï¿½ July 2011
-o Java SE 8 ï¿½ March 2014
-o Java SE 9 ï¿½ September, 21st 2017
-o Java SE 10 ï¿½ March, 20th 2018
-o Java SE 11 ï¿½ September, 25th 2018
-o Java SE 12 ï¿½ March, 19th 2019
-o Java SE 13 ï¿½ September, 17th 2019
-o Java SE 14 ï¿½ March, 17th 2020
-o Java SE 15 ï¿½ September, 15th 2020
-o Java SE 16 ï¿½ March, 16th 2021
-o Java SE 17 ï¿½ September, 14th 2021
-o Java SE 18 ï¿½ March, 22nd 2022
-o Java SE 19 ï¿½ September 2022
+o JDK 1.1 — February 1997
+o J2SE 1.2 (Playground) — December 1998
+o J2SE 1.3 (Kestrel) — May 2000
+o J2SE 1.4 (Merlin) — February 2002
+o J2SE 5.0 (Tiger) — September 2004
+o Java SE 6 (Mustang) — December 2006
+o Java SE 7 (Dolphin) — July 2011
+o Java SE 8 — March 2014
+o Java SE 9 — September, 21st 2017
+o Java SE 10 — March, 20th 2018
+o Java SE 11 — September, 25th 2018
+o Java SE 12 — March, 19th 2019
+o Java SE 13 — September, 17th 2019
+o Java SE 14 — March, 17th 2020
+o Java SE 15 — September, 15th 2020
+o Java SE 16 — March, 16th 2021
+o Java SE 17 — September, 14th 2021
+o Java SE 18 — March, 22nd 2022
+o Java SE 19 – September 2022
 * Time based version-string scheme
 o Starting from Java 10, Oracle has adapted time based version-string scheme. 
 o The new time-based releases will not be delayed and features will be released every six months, with no constraints on what features can go out in the releases.
@@ -77,21 +74,11 @@ o The updates releases will occur every quarter
 * The new format of the version number is:
 o $FEATURE.$INTERIM.$UPDATE.$PATCH
 
-Counter Name    
-Description
-$FEATURE    
-It will be incremented every 6 months and based on feature release versions e.g: JDK 10, JDK 11. (Formerly $MAJOR.)
-
-$INTERIM
-Usually this will be zero, as there will be no interim release in a six month period. It will be incremented for non-feature releases that contain compatible bug fixes and enhancements but no incompatible changes, no feature removals, and no changes to standard APIs. (Formerly $MINOR.)
-$UPDATE
-It will be incremented for compatible update releases that fix security issues, regressions, and bugs in newer features. (Formerly $SECURITY.)
-$PATCH
-It will be incremented only when itï¿½s necessary to produce an emergency release to fix a critical issue.
-
+Counter Name    Description$FEATURE    It will be incremented every 6 months and based on feature release versions e.g: JDK 10, JDK 11. (Formerly $MAJOR.)
+$INTERIMUsually this will be zero, as there will be no interim release in a six month period. It will be incremented for non-feature releases that contain compatible bug fixes and enhancements but no incompatible changes, no feature removals, and no changes to standard APIs. (Formerly $MINOR.)$UPDATEIt will be incremented for compatible update releases that fix security issues, regressions, and bugs in newer features. (Formerly $SECURITY.)$PATCHIt will be incremented only when it’s necessary to produce an emergency release to fix a critical issue.
 * Example of a java version reader 
 o % java -version
-* openjdk version ï¿½11.0.16.1ï¿½ 
+* openjdk version “11.0.16.1” 
 * version: 11
 * interim: 0 
 * update: 16
@@ -103,11 +90,11 @@ o Web Services Technologies (RESTful Web Services, Enterprise Web Services, XML-
 o Management and Security Technologies (JASP, Java Authorization Contract, Application Deployment, J2EE Management, Debugging Support)
 o Java EE-related Specs in Java SE (Java Architecture for XML Binding, Java API for XML Processing, Java Database Connectivity,  Java Management Extensions, JavaBeans Activation Framework, Streaming API for XML)
 
-Java EE 8 ï¿½ 2017-08 
-Jakarta EE 8 ï¿½ 2019-09 
-Jakarta EE 9 ï¿½ 2020-12 
-Jakarta EE 9.1 ï¿½ 2021-05
-Jakarta EE 10 ï¿½ September 2022
+Java EE 8 — 2017-08 
+Jakarta EE 8 — 2019-09 
+Jakarta EE 9 — 2020-12 
+Jakarta EE 9.1 — 2021-05
+Jakarta EE 10 – September 2022
 
 
 JAKARTA EE 10 - FEATURES AND BENEFITS
@@ -135,8 +122,7 @@ JarkataEE Specifications:
 * Jakarta Faces
 * Jakarta Interceptors
 * Jakarta JSON Binding
-* Jakarta JSON Processing
-* Jakarta Mail
+* Jakarta JSON Processing* Jakarta Mail
 * Jakarta Managed Beans
 * Jakarta Management
 * Jakarta Messaging
@@ -156,8 +142,7 @@ JarkataEE Specifications:
 * Jakarta XML Binding
 * Jakarta XML Registries
 * Jakarta XML RPC
-* Jakarta XML Web Services Specification
-
+* Jakarta XML Web Services Specification
 * JarkataEE Profiles 
 o Web vs Full Profile vs MicroProfile
 
@@ -192,7 +177,7 @@ o Web vs Full Profile vs MicroProfile
 * Open Liberty - Is an Open source lightweight Java EE microservice framework used to build fast and efficient cloud-native Java microservice applications which runs only the needed services while considering the latest Eclipse MicroProfile standards
 * Helidon - This is a collection of Java libraries used for writing Java microservices which run on a fast Helidon Reactive WebServer, a web core powered by Netty, while supporting MicroProfile and its standard specifications
 * KumuluzEE - is a lightweight framework utilized for developing microservices using standard Java/JavaEE/JakartaEE/EE4J technologies and APIs with optional extensions, such as with Node.js, Go, and other languages, and migrating existing applications to cloud-native architecture and microservices for easier cloud-native microservices development
-* Fujitsu_Global Launcher - It was developed by Fujitsu, and is a Java EE microservice framework supporting certain MicroProfile specifications and can bundle the application into ï¿½ber-jar / fat files (JAR files with all its needed dependencies)
+* Fujitsu_Global Launcher - It was developed by Fujitsu, and is a Java EE microservice framework supporting certain MicroProfile specifications and can bundle the application into über-jar / fat files (JAR files with all its needed dependencies)
 * ThornTail (Outdated) - Is a Java Enterprise microservices framework that bundles only needed and specified packages into a JAR file with enough runtime to run them
 
 * Summary of the exercises
@@ -233,29 +218,29 @@ NOTE: Refer to Annexure for setting up the environment variables if not set.
 
 Exercise II: Create a new project using Microprofile.io
 
-* Head over to theï¿½https://start.microprofile.io/index.xhtmlï¿½website using your browser.
+* Head over to the https://start.microprofile.io/index.xhtml website using your browser.
 
 * It will appear as shown in the image below:
 
-* You will see some options in it such as theï¿½groupId,ï¿½artifactId,MicroProfile Version,ï¿½Java SE Version,ï¿½Build Toolï¿½(i.e., Maven and Gradle),ï¿½MicroProfile Runtime, andï¿½Examples for Specifications.
+* You will see some options in it such as the groupId, artifactId,MicroProfile Version, Java SE Version, Build Tool (i.e., Maven and Gradle), MicroProfile Runtime, and Examples for Specifications.
 
 * Once these are set, you will be able to download the zipped project. Then, unzip it to get the project as you would expect.
 * Set the following:
 o groupId: starter
-o MicroProfile Version: MPï¿½3.2
+o MicroProfile Version: MP 3.2
 o Build Tool: Maven
 o MicroProfile Runtime: Quarkus
 o artifactId: za.co.bmw.workshop.starter
 o Java SE Version: Java 11
 o Examples for specifications: select all
 
-* Click on the ï¿½Downloadï¿½ button to download.
+* Click on the ‘Download’ button to download.
 
 * We suggest that you create folder which will be your working folder. For the sake of the workshop, we will name our folder bmwworkshop
 
 * Move the zip file you have just downloaded to your working folder. Open the project you have just downloaded, compile, and run a new project.
 
-As you will notice, the project has two separate microservices; ï¿½service-aï¿½ and ï¿½service-bï¿½.
+As you will notice, the project has two separate microservices; ‘service-a’ and ‘service-b’.
 * service-a: These include the client, config, health, metric, openapi, resilient, and secure folders. 
 * service-b: it has the client and secure folders only.
 
@@ -285,7 +270,7 @@ Click around the page to explore the Hello World application created by default.
 
 * Once finished navigating the application, close the running application on the terminal by using (Ctlr + X) or (Ctlr + C) on your keyboard to shut down the application that has been started. 
 
-* To run the application on a live environment, copy the packaged jar (za.co.bmw.workshop.starter-runner.jar) file and distribute it. In order to run the application independently. Ensure that youï¿½re in service\target folder to run the application from the jar file. Follow these commands below: 
+* To run the application on a live environment, copy the packaged jar (za.co.bmw.workshop.starter-runner.jar) file and distribute it. In order to run the application independently. Ensure that you’re in service\target folder to run the application from the jar file. Follow these commands below: 
 
 $ cd service-a\target\
 $ java -jar za.co.bmw.workshop.starter-runner.jar
@@ -322,7 +307,7 @@ $ taskkill /F /PID pid_number
 
 TIP: Find the dependencies tags in the pom.xml, and ensure you add the openapi on the correct tag. 
  
-* Make sure youï¿½re in the correct folder (service-a).
+* Make sure you’re in the correct folder (service-a).
 
 $ cd service-a
 
@@ -401,37 +386,7 @@ Microservices Application and Database Relationship
  
 
 * The following table summarizes the differences between the microservices and monolithic architectures.
-Characteristic
-Microservices Architecture
-Monolithic Architecture
-Unit design
-The application consists of loosely coupled services. Each service supports a single business task.
-The entire application is designed, developed, and deployed as a single unit.
-Functionality reuse
-Microservices define APIs that expose their functionality to any client. The clients could even be other applications.
-The opportunity for reusing functionality across applications is limited.
-Communication within the application
-To communicate with each other, the microservices of an application use the request-response communication model. The typical implementation uses REST API calls based on the HTTP protocol.
-Internal procedures (function calls) facilitate communication between the components of the application. There is no need to limit the number of internal procedure calls.
-Technological flexibility
-Each microservice can be developed using a programming language and framework that best suits the problem that the microservice is designed to solve.
-Usually, the entire application is written in a single programming language.
-Data management
-Decentralized: Each microservice may use its own database.
-Centralized: The entire application uses one or more databases.
-Deployment
-Each microservice is deployed independently, without affecting the other microservices in the application.
-Any change, however small, requires redeploying and restarting the entire application.
-Maintainability
-Microservices are simple, focused, and independent. So the application is easier to maintain.
-As the application scope increases, maintaining the code becomes more complex.
-Resiliency
-The application functionality is distributed across multiple services. If a microservice fails, the functionality offered by the other microservices continues to be available.
-A failure in any component could affect the availability of the entire application.
-Scalability
-Each microservice can be scaled independently of the other services.
-The entire application must be scaled, even when the business requirement is for scaling only certain parts of the application.
-
+CharacteristicMicroservices ArchitectureMonolithic ArchitectureUnit designThe application consists of loosely coupled services. Each service supports a single business task.The entire application is designed, developed, and deployed as a single unit.Functionality reuseMicroservices define APIs that expose their functionality to any client. The clients could even be other applications.The opportunity for reusing functionality across applications is limited.Communication within the applicationTo communicate with each other, the microservices of an application use the request-response communication model. The typical implementation uses REST API calls based on the HTTP protocol.Internal procedures (function calls) facilitate communication between the components of the application. There is no need to limit the number of internal procedure calls.Technological flexibilityEach microservice can be developed using a programming language and framework that best suits the problem that the microservice is designed to solve.Usually, the entire application is written in a single programming language.Data managementDecentralized: Each microservice may use its own database.Centralized: The entire application uses one or more databases.DeploymentEach microservice is deployed independently, without affecting the other microservices in the application.Any change, however small, requires redeploying and restarting the entire application.MaintainabilityMicroservices are simple, focused, and independent. So the application is easier to maintain.As the application scope increases, maintaining the code becomes more complex.ResiliencyThe application functionality is distributed across multiple services. If a microservice fails, the functionality offered by the other microservices continues to be available.A failure in any component could affect the availability of the entire application.ScalabilityEach microservice can be scaled independently of the other services.The entire application must be scaled, even when the business requirement is for scaling only certain parts of the application.
 
 * Advantages and Disadvantages of Microservices
 
@@ -525,7 +480,7 @@ Disadvantages of Microservices
 
 * Using scheduled IO blocks 
 * A few threads can handle many concurrent I/O.
-* When the request processing needs to call a remote service, you canï¿½t block the thread anymore. 
+* When the request processing needs to call a remote service, you can’t block the thread anymore. 
 * You schedule the I/O and pass a continuation, i.e., the code to execute once the I/O completes.
 
 
@@ -555,14 +510,14 @@ Disadvantages of Microservices
 
 
 Practice 2: Create a new project using Quarkus.io
-Head over to theï¿½https://code.quarkus.io/ website using your browser.
+Head over to the https://code.quarkus.io/ website using your browser.
 * Group: za.co.bmw.workshop.day.one
 * artifactId: bmw-workshop-day-one
 * Build Tool: Maven
 * Version: 1.0.0-SNAPSHOT
 * Java SE Version: Java 11
 * Starter Code: Yes
-* In theï¿½origin: platformï¿½search for and select: RESTEasy Reactive
+* In the origin: platform search for and select: RESTEasy Reactive
 
 
 * Then click the Generate Your Application button
@@ -630,7 +585,7 @@ Navigate the rest of the application to see what functions have been activated o
 
 http://localhost:8080/
 * Reactive Restful Services
-* DevUI (weï¿½ll discuss later) 
+* DevUI (we’ll discuss later) 
 * Selected extensions
 
 
@@ -793,18 +748,13 @@ $ mvnw.cmd  compile quarkus:dev
 2. Open Command Prompt (cmd) to run curl and view the API results 
 $ curl http://localhost:8080/hello/greeting/thato.mohono 
 
-
-
-
 * Once finished navigating the application, close the running application on the terminal by using (Ctlr + X) or (Ctlr + C) on your keyboard to shut down the application that has been started. 
-
 
 * If there are lingering ports that have not been closed. To stop the dev and debug processes that linger in the background, run the following commands:  
 $ netstat -ano | findStr "8080"
 $ taskkill /F /PID pid_number 
 $ netstat -ano | findStr "5005"
 $ taskkill /F /PID pid_number
-
 
 * Create a package of the application for distribution purposes
 $ mvnw.cmd  clean
@@ -823,32 +773,32 @@ Lesson 3
 * Using injections to get configurations 
 
 * By default, Quarkus reads configuration properties from multiple sources (by descending ordinal):
-* (400)ï¿½System properties
-* (300)ï¿½Environment variables
-* (295)ï¿½.envï¿½file in the current working directory
-* (260)ï¿½Quarkus Application configuration fileï¿½inï¿½$PWD/config/application.properties
-* (250)ï¿½Quarkus Application configuration fileï¿½application.propertiesï¿½in classpath
-* (100)ï¿½MicroProfile Config configuration fileï¿½META-INF/microprofile-config.propertiesï¿½in classpath
+* (400) System properties
+* (300) Environment variables
+* (295) .env file in the current working directory
+* (260) Quarkus Application configuration file in $PWD/config/application.properties
+* (250) Quarkus Application configuration file application.properties in classpath
+* (100) MicroProfile Config configuration file META-INF/microprofile-config.properties in classpath
 
 * The final configuration is the aggregation of the properties defined by all these sources. A configuration property lookup starts by the highest ordinal configuration source available and works it way down to other sources until a match is found.
 
-* This means that any configuration property may override a value just by setting a different value in a higher ordinal config source. For example, a property configured using an environment property overrides the value provided using theï¿½application.propertiesï¿½file.
+* This means that any configuration property may override a value just by setting a different value in a higher ordinal config source. For example, a property configured using an environment property overrides the value provided using the application.properties file.
 
 
 * System properties
-System properties can be handed to the application through theï¿½-Dï¿½flag during startup. The following examples assign the valueï¿½youshallnotpassï¿½to the attributeï¿½quarkus.datasource.password.
-* For Quarkus dev mode:ï¿½./mvnw quarkus:dev -Dquarkus.datasource.password=youshallnotpass
-* For a runner jar:ï¿½java -Dquarkus.datasource.password=youshallnotpass -jar target/quarkus-app/quarkus-run.jar
-* For a native executable:ï¿½./target/myapp-runner -Dquarkus.datasource.password=youshallnotpass
+System properties can be handed to the application through the -D flag during startup. The following examples assign the value youshallnotpass to the attribute quarkus.datasource.password.
+* For Quarkus dev mode: ./mvnw quarkus:dev -Dquarkus.datasource.password=youshallnotpass
+* For a runner jar: java -Dquarkus.datasource.password=youshallnotpass -jar target/quarkus-app/quarkus-run.jar
+* For a native executable: ./target/myapp-runner -Dquarkus.datasource.password=youshallnotpass
 
 
 * Environment variables
-* For a runner jar:ï¿½export QUARKUS_DATASOURCE_PASSWORD=youshallnotpass ; java -jar target/quarkus-app/quarkus-run.jar
-* For a native executable:ï¿½export QUARKUS_DATASOURCE_PASSWORD=youshallnotpass ; ./target/myapp-runner
+* For a runner jar: export QUARKUS_DATASOURCE_PASSWORD=youshallnotpass ; java -jar target/quarkus-app/quarkus-run.jar
+* For a native executable: export QUARKUS_DATASOURCE_PASSWORD=youshallnotpass ; ./target/myapp-runner
 
 
 * .env file in the current working directory
-* .env:ï¿½
+* .env: 
 
 QUARKUS_DATASOURCE_PASSWORD=youshallnotpass
 
@@ -856,7 +806,7 @@ QUARKUS_DATASOURCE_PASSWORD=youshallnotpass
 * Quarkus Application configuration file
 * The Quarkus Application configuration file is loaded from the classpath resources, for instance src/main/resources/application.properties, src/test/resources/application.properties or from a jar dependency that contains an application.properties entry.
 
-* application.properties:ï¿½
+* application.properties: 
 
 greeting.message=hello 
 quarkus.http.port=9090
@@ -878,11 +828,10 @@ quarkus.http.port=9090
 @ConfigProperty(name = "greeting.message") 
 String message;
 
-You can useï¿½@Inject @ConfigPropertyï¿½or justï¿½@ConfigProperty. Theï¿½@Injectï¿½annotation is not necessary for members annotated withï¿½@ConfigProperty.
-
+You can use @Inject @ConfigProperty or just @ConfigProperty. The @Inject annotation is not necessary for members annotated with @ConfigProperty.
 
 * Default Values
-* If a property is associated with a default value (by way of theï¿½defaultValueï¿½attribute), and no configuration value is supplied for the property, then rather than throwing aï¿½javax.enterprise.inject.spi.DeploymentException, the default value will be used. Theï¿½defaultValueï¿½value is expressed as aï¿½String, and uses the same conversion mechanism used to process configuration values.
+* If a property is associated with a default value (by way of the defaultValue attribute), and no configuration value is supplied for the property, then rather than throwing a javax.enterprise.inject.spi.DeploymentException, the default value will be used. The defaultValue value is expressed as a String, and uses the same conversion mechanism used to process configuration values.
 
 @ConfigProperty(name = "greeting.suffix", defaultValue="Thato") 
 String suffix;
@@ -890,12 +839,12 @@ String suffix;
 
 
 * Programmatically access
-* Theï¿½org.eclipse.microprofile.config.ConfigProvider.getConfig()ï¿½API allows to access the Config API programmatically. This API is mostly useful in situations where CDI injection is not available.
+* The org.eclipse.microprofile.config.ConfigProvider.getConfig() API allows to access the Config API programmatically. This API is mostly useful in situations where CDI injection is not available.
 
 String databaseName = ConfigProvider.getConfig().getValue("database.name", String.class);
 Optional<String> maybeDatabaseName = ConfigProvider.getConfig().getOptionalValue("database.name", String.class);
 
-You can useï¿½@Inject @ConfigPropertyï¿½or justï¿½@ConfigProperty. Theï¿½@Injectï¿½annotation is not necessary for members annotated withï¿½@ConfigProperty.
+You can use @Inject @ConfigProperty or just @ConfigProperty. The @Inject annotation is not necessary for members annotated with @ConfigProperty.
 
 
 
@@ -948,9 +897,6 @@ developer.specialization=Architect
 * Part IV: Update the properties file and using @ConfigMapping
 * Part V: Reading configurations from an external JSON file 
 
-Until 14.30 
-15 mins break
-Start 14.45
 
 Practice 3: Using the properties and configuration properties
 
@@ -1417,8 +1363,6 @@ http://localhost:8180/hello/topics
 $ curl http://localhost:8180/hello/topics
 
 
-Until 15.45
-
 Extra Work (self-practice)
 
 * Create a new application with the following details:
@@ -1441,24 +1385,35 @@ o toString() method;
 o setters and getter methods;
 
 * Create an Items Resource Class with the following methods:
-o String: purchase(ArrayList items) ï¿½ return a string literal (for now)
-o String: additemToChart(String item) ï¿½ return a string (for now)
-o String: removeItemFromChart(String item) ï¿½ return a string (for now)
-o String: updateItemInChart(String item) ï¿½ return a string (for now)
-o ArrayList: showItemsInChart() ï¿½ return a string (for now)
-o ArrayList: showItemInChart(int number) ï¿½ return an empty ArrayList(for now)
+o String: purchase(ArrayList items) – return a string literal (for now)
+o String: additemToChart(String item) – return a string (for now)
+o String: removeItemFromChart(String item) – return a string (for now)
+o String: updateItemInChart(String item) – return a string (for now)
+o ArrayList: showItemsInChart() – return a string (for now)
+o ArrayList: showItemInChart(int number) – return an empty ArrayList(for now)
 
 * Create an Service Class with the following methods:
-o ArrayList: showItemsInChart() ï¿½ return all string literal (for now)
-o ArrayList: showItemInChart(String item) ï¿½ return a string (for now)
-o String: addItem (String item) ï¿½ return a string (for now)
-o String: removeItem (String item) ï¿½ return a string (for now)
+o ArrayList: showItemsInChart() – return all string literal (for now)
+o ArrayList: showItemInChart(String item) – return a string (for now)
+o String: addItem (String item) – return a string (for now)
+o String: removeItem (String item) – return a string (for now)
 
 * Run the dev server and test your own custom endpoints 
 
 
 
 ======== END-OF-DAY-01 ========
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1530,7 +1485,7 @@ o This class is used to resolve all the relevant dependencies (both deployment a
 
 * Bootstrap class in the independent-projects/bootstrap module. For the Quarkus application, this class is used to resolve each and every pertinent dependency, including runtime and deployment requirements. 
 
-* The final product of this process is a CuratedApplication, which includes all of the applicationï¿½s class loading data.
+* The final product of this process is a CuratedApplication, which includes all of the application’s class loading data.
 
 * The CuratedApplication can then be used to create an AugmentAction instance, which can create production application and start/restart runtime ones. This application instance exists within an isolated ClassLoader, it is not necessary to have any of the Quarkus deployment classes on the class path as the curate process will resolve them for you.
 
@@ -1860,7 +1815,7 @@ In Java, we have several APIs and frameworks to map objects to relational databa
 
 * Panache is a Quarkus-specific library that simplifies the development of your Hibernate-based persistence layer. Similar to Spring Data JPA, Panache handles most of the repetitive boilerplate code for you. Its implementations of the repository and the active record pattern provide methods to create, update, and remove records, perform basic queries, and define and execute your own queries.
 
-* Panache itself doesnï¿½t require any additional configuration. But you need to configure your database connection, and you can use the properties described in the 1st part of this series to configure Hibernate.
+* Panache itself doesn’t require any additional configuration. But you need to configure your database connection, and you can use the properties described in the 1st part of this series to configure Hibernate.
 
 * Zero Config Database Setup
 o Quarkus can even provide you with a zero-config database out of the box when testing or running in dev mode, a feature we refer to as Dev Services. Depending on your database type, you may need Docker installed to use this feature.
@@ -1992,15 +1947,15 @@ public class Person extends PanacheEntity {
 }
 * How and why we simplify Hibernate ORM mappings
 o When it comes to writing Hibernate ORM entities, there are a number of annoying things that users have grown used to reluctantly deal with, such as:
-* Duplicating ID logic: most entities need an ID, most people donï¿½t care how it is set, because it is not really relevant to your model.
-* Traditional EE patterns advise to split entity definition (the model) from the operations you can do on them (DAOs, Repositories), but really that requires a split between the state and its operations even though we would never do something like that for regular objects in the Object-Oriented architecture, where state and methods are in the same class. Moreover, this requires two classes per entity, and requires injection of the DAO or Repository where you need to do entity operations, which breaks your edit flow and requires you to get out of the code youï¿½re writing to set up an injection point before coming back to use it.
-* Hibernate queries are super powerful, but overly verbose for common operations, requiring you to write queries even when you donï¿½t need all the parts.
+* Duplicating ID logic: most entities need an ID, most people don’t care how it is set, because it is not really relevant to your model.
+* Traditional EE patterns advise to split entity definition (the model) from the operations you can do on them (DAOs, Repositories), but really that requires a split between the state and its operations even though we would never do something like that for regular objects in the Object-Oriented architecture, where state and methods are in the same class. Moreover, this requires two classes per entity, and requires injection of the DAO or Repository where you need to do entity operations, which breaks your edit flow and requires you to get out of the code you’re writing to set up an injection point before coming back to use it.
+* Hibernate queries are super powerful, but overly verbose for common operations, requiring you to write queries even when you don’t need all the parts.
 * Hibernate is very general-purpose, but does not make it trivial to do trivial operations that make up 90% of our model usage.
 o With Panache, we took an opinionated approach to tackle all these problems:
 * Make your entities extend PanacheEntity: it has an ID field that is auto-generated. If you require a custom ID strategy, you can extend PanacheEntityBase instead and handle the ID yourself.
-* Use public fields. Get rid of dumb getter and setters. Hibernate ORM w/o Panache also doesnï¿½t require you to use getters and setters, but Panache will additionally generate all getters and setters that are missing, and rewrite every access to these fields to use the accessor methods. This way you can still write useful accessors when you need them, which will be used even though your entity users still use field accesses. This implies that from the Hibernate perspective youï¿½re using accessors via getters and setters even while it looks like field accessors.
-* With the active record pattern: put all your entity logic in static methods in your entity class and donï¿½t create DAOs. Your entity superclass comes with lots of super useful static methods, and you can add your own in your entity class. Users can just start using your entity Person by typing Person. and getting completion for all the operations in a single place.
-* Donï¿½t write parts of the query that you donï¿½t need: write Person.find("order by name") or Person.find("name = ?1 and status = ?2", "stef", Status.Alive) or even better Person.find("name", "stef").
+* Use public fields. Get rid of dumb getter and setters. Hibernate ORM w/o Panache also doesn’t require you to use getters and setters, but Panache will additionally generate all getters and setters that are missing, and rewrite every access to these fields to use the accessor methods. This way you can still write useful accessors when you need them, which will be used even though your entity users still use field accesses. This implies that from the Hibernate perspective you’re using accessors via getters and setters even while it looks like field accessors.
+* With the active record pattern: put all your entity logic in static methods in your entity class and don’t create DAOs. Your entity superclass comes with lots of super useful static methods, and you can add your own in your entity class. Users can just start using your entity Person by typing Person. and getting completion for all the operations in a single place.
+* Don’t write parts of the query that you don’t need: write Person.find("order by name") or Person.find("name = ?1 and status = ?2", "stef", Status.Alive) or even better Person.find("name", "stef").
 
 
 
@@ -2120,16 +2075,16 @@ public class Person extends PanacheEntity {
 }
 * How and why we simplify Hibernate ORM mappings
 o When it comes to writing Hibernate Reactive entities, there are a number of annoying things that users have grown used to reluctantly deal with, such as:
-* Duplicating ID logic: most entities need an ID, most people donï¿½t care how it is set, because it is not really relevant to your model.
-* Dumb getters and setters: since Java lacks support for properties in the language, we have to create fields, then generate getters and setters for those fields, even if they donï¿½t actually do anything more than read/write the fields.
-* Traditional EE patterns advise to split entity definition (the model) from the operations you can do on them (DAOs, Repositories), but really that requires an unnatural split between the state and its operations even though we would never do something like that for regular objects in the Object-Oriented architecture, where state and methods are in the same class. Moreover, this requires two classes per entity, and requires injection of the DAO or Repository where you need to do entity operations, which breaks your edit flow and requires you to get out of the code youï¿½re writing to set up an injection point before coming back to use it.
-* Hibernate queries are super powerful, but overly verbose for common operations, requiring you to write queries even when you donï¿½t need all the parts.
+* Duplicating ID logic: most entities need an ID, most people don’t care how it is set, because it is not really relevant to your model.
+* Dumb getters and setters: since Java lacks support for properties in the language, we have to create fields, then generate getters and setters for those fields, even if they don’t actually do anything more than read/write the fields.
+* Traditional EE patterns advise to split entity definition (the model) from the operations you can do on them (DAOs, Repositories), but really that requires an unnatural split between the state and its operations even though we would never do something like that for regular objects in the Object-Oriented architecture, where state and methods are in the same class. Moreover, this requires two classes per entity, and requires injection of the DAO or Repository where you need to do entity operations, which breaks your edit flow and requires you to get out of the code you’re writing to set up an injection point before coming back to use it.
+* Hibernate queries are super powerful, but overly verbose for common operations, requiring you to write queries even when you don’t need all the parts.
 * Hibernate is very general-purpose, but does not make it trivial to do trivial operations that make up 90% of our model usage.
 o With Panache, we took an opinionated approach to tackle all these problems:
 * Make your entities extend PanacheEntity: it has an ID field that is auto-generated. If you require a custom ID strategy, you can extend PanacheEntityBase instead and handle the ID yourself.
 * Use public fields. Get rid of dumb getter and setters. Under the hood, we will generate all getters and setters that are missing, and rewrite every access to these fields to use the accessor methods. This way you can still write useful accessors when you need them, which will be used even though your entity users still use field accesses.
-* With the active record pattern: put all your entity logic in static methods in your entity class and donï¿½t create DAOs. Your entity superclass comes with lots of super useful static methods, and you can add your own in your entity class. Users can just start using your entity Person by typing Person. and getting completion for all the operations in a single place.
-* Donï¿½t write parts of the query that you donï¿½t need: write Person.find("order by name") or Person.find("name = ?1 and status = ?2", "stef", Status.Alive) or even better Person.find("name", "stef").
+* With the active record pattern: put all your entity logic in static methods in your entity class and don’t create DAOs. Your entity superclass comes with lots of super useful static methods, and you can add your own in your entity class. Users can just start using your entity Person by typing Person. and getting completion for all the operations in a single place.
+* Don’t write parts of the query that you don’t need: write Person.find("order by name") or Person.find("name = ?1 and status = ?2", "stef", Status.Alive) or even better Person.find("name", "stef").
 
 * Using our command-line tool: 
 
@@ -2144,7 +2099,7 @@ Dependency Injection
 o Well, a bean is a container-managed object that supports a set of basic services, such as injection of dependencies, lifecycle callbacks and interceptors.
 
 * What does "container-managed" mean?
-o Simply put, you donï¿½t control the lifecycle of the object instance directly. Instead, you can affect the lifecycle through declarative means, such as annotations, configuration, etc. The container is the environment where your application runs. It creates and destroys the instances of beans, associates the instances with a designated context, and injects them into other beans.
+o Simply put, you don’t control the lifecycle of the object instance directly. Instead, you can affect the lifecycle through declarative means, such as annotations, configuration, etc. The container is the environment where your application runs. It creates and destroys the instances of beans, associates the instances with a designated context, and injects them into other beans.
 
 * What is it good for?
 o An application developer can focus on the business logic rather than finding out "where and how" to obtain a fully initialized component with all of its dependencies.
@@ -2205,35 +2160,14 @@ o dependencies that contain a Jandex index - META-INF/jandex.idx,
 o dependencies referenced by quarkus.index-dependency in application.properties,
 o and Quarkus integration code.
 
-* Bean classes that donï¿½t have a bean defining annotation are not discovered. This behaviour is defined by CDI. But producer methods and fields and observer methods are discovered even if the declaring class is not annotated with a bean defining annotation (this behaviour is different to what is defined in CDI). In fact, the declaring bean classes are considered annotated with @Dependent.
+* Bean classes that don’t have a bean defining annotation are not discovered. This behaviour is defined by CDI. But producer methods and fields and observer methods are discovered even if the declaring class is not annotated with a bean defining annotation (this behaviour is different to what is defined in CDI). In fact, the declaring bean classes are considered annotated with @Dependent.
 
 * What is the bean scope?
 o The scope of a bean determines the lifecycle of its instances, i.e. when and where an instance should be created and destroyed. You can use all the built-in scopes mentioned by the specification except for javax.enterprise.context.ConversationScoped.
 
-Short Overview of Quarkus Scopesï¿½
+Short Overview of Quarkus Scopes 
 
-ANNOTATION
-INITIALIZATION TIME
-INSTANCES
-@ApplicationScoped
-When a method on the injected instance gets called.
-One per application.
-@Singleton
-When injected into parent.
-One per application.
-@Dependent
-When injected into parent.
-For every injection point.
-@RequestScoped
-When a method on the injected instance gets called.
-For every HTTP request.
-@SessionScoped
-When a method on the injected instance gets called.
-For everyï¿½undertow session.
-Custome Scope
-Depended on implementation.
-Depended on implementation.
-
+ANNOTATIONINITIALIZATION TIMEINSTANCES@ApplicationScopedWhen a method on the injected instance gets called.One per application.@SingletonWhen injected into parent.One per application.@DependentWhen injected into parent.For every injection point.@RequestScopedWhen a method on the injected instance gets called.For every HTTP request.@SessionScopedWhen a method on the injected instance gets called.For every undertow session.Custome ScopeDepended on implementation.Depended on implementation.
 
 * Summary of the exercises
 * Part I: Starting to make use of Panache Entity
@@ -2763,7 +2697,7 @@ o How to change the default Log Level
 * As an alternative, you can pass it with -Dquarkus.log.level=LEVEL at startup:
 
 
-o In most cases, you wonï¿½t need to change the Log Level for all packages available in your application. For example, you can define a log level for a single namespace such as org.jboss.resteasy. Example:
+o In most cases, you won’t need to change the Log Level for all packages available in your application. For example, you can define a log level for a single namespace such as org.jboss.resteasy. Example:
 
 * quarkus.log.category."org.jboss.resteasy".level=DEBUG
 
@@ -2861,7 +2795,7 @@ Logger.getLogger(ApplicationLifeCycle.class);
 }
 
 
-o This is an example of how to take advantage of the CDI concept of events, in which you produce and subscribe to events occurring in your application in a way that enables you to maintain decoupled code between producers and observers. Quarkus runtime uses the javax.enterprise.event.Event class to create events, and you use the CDIï¿½s @Observes annotation to subscribe to events.
+o This is an example of how to take advantage of the CDI concept of events, in which you produce and subscribe to events occurring in your application in a way that enables you to maintain decoupled code between producers and observers. Quarkus runtime uses the javax.enterprise.event.Event class to create events, and you use the CDI’s @Observes annotation to subscribe to events.
 
 o In our case, the CDI @Observes the io.quarkus.runtime.StartupEvent and the io.quarkus.runtime.ShutdownEvent. Therefore:
 
@@ -3106,23 +3040,19 @@ $ mvnw.cmd  compile quarkus:dev
 
 
 
-Ends 15.00
-Break 15 mins
-Starts 15.15
-
 
 Quarkus Configuring Profiles
 
 * What is Quarkus Configuration Profiles?
 o Quarkus, like any other MicroProfile, follows the MicroProfile specifications. It allows developers to seamlessly set the variables found in the project and access them in the project scope during different life cycles.
-o The projectï¿½s settings are usually stored in the application.properties file. In addition, developers can locate the file in the resources folder found in the main folder. Some variables that developers can set include pointing out to Datasource such as postgresql or mysql, Datasource properties and settings such as the username, password, url, and access port among others.
+o The project’s settings are usually stored in the application.properties file. In addition, developers can locate the file in the resources folder found in the main folder. Some variables that developers can set include pointing out to Datasource such as postgresql or mysql, Datasource properties and settings such as the username, password, url, and access port among others.
 o Configuration files can hold variables needed during the operation of the application. These can include variables isolated from the main application source code files. Thus, the variables can later be injected into the application when needed only. Developers prefer config files to set the overall system properties and environment variables.
-o Quarkusï¿½ configuration profiles are like containers that hold on settings and variables to be used in the overall application or during a particular phase in the project life cycle. They can contain one or multiple variables and settings. When used, for example, during a phase, they override similar settings or variable data set before.
+o Quarkus’ configuration profiles are like containers that hold on settings and variables to be used in the overall application or during a particular phase in the project life cycle. They can contain one or multiple variables and settings. When used, for example, during a phase, they override similar settings or variable data set before.
 o Setting up these profiles is advantageous since one can quickly switch when the app is under different development stages. These are such as from development to testing and from testing to production. The switching between configurations does not require additional settings. The framework automatically does the switching for one.
 o Locate the application.properties file located at the main folder as shown below:
 o The file is for the overall application during the development, testing, and production phases.
 
-Quarkusï¿½ Configuration Profile formats
+Quarkus’ Configuration Profile formats
 * The available configuration profiles for Quarkus are three. These are:
 o dev: This is only active in the development phase. For instance, when executing ./mvnw compile quarkus:dev
 o test: Its application is in the test phase. For instance, when executing the ./mvnw compile quarkus:test
@@ -3186,17 +3116,17 @@ $./mvnw compile quarkus:test
 
 
 * Production mode
-o The settings will allow the application to be packaged as an ï¿½uber-jarï¿½ file type. An uber-jar file has all its dependencies, unlike the typical jar file, which has its dependencies in a separate location.
+o The settings will allow the application to be packaged as an ‘uber-jar’ file type. An uber-jar file has all its dependencies, unlike the typical jar file, which has its dependencies in a separate location.
 
 * Run the following command:
 $./mvnw package
 
-* Check the packaged file inside the ï¿½targetï¿½ folder. Run the jar file by executing the following command:
+* Check the packaged file inside the ’target’ folder. Run the jar file by executing the following command:
 $ java -jar target/quarkus-config-profiles-1.0-SNAPSHOT-runner.jar
 
 
 * Using user-defined configuration profile
-Use the same format as shown above to accomplish this. For example, for a profile with the name ï¿½prototypeï¿½, under the other profiles, do the following:
+Use the same format as shown above to accomplish this. For example, for a profile with the name “prototype”, under the other profiles, do the following:
 
 # Prototype stage
 %prototype.quarkus.http.port=9095
@@ -3210,31 +3140,31 @@ $ mvnw.cmd  compile quarkus:dev -Dquarkus.profile=prototype
 o Variables set in this location can be injected into the application following the Java EE and MicroProfile standards and specifications. The variables can override the previously set environment variable value depending on the configuration profile in use.
 
 * Setting up variables
-o To add variables, for instance, variables called ï¿½nameï¿½, ï¿½ageï¿½ and ï¿½heightï¿½ that belong to a ï¿½personï¿½ object add the code below to the file under the GLOBAL configuration settings:
+o To add variables, for instance, variables called ‘name’, ‘age’ and ‘height’ that belong to a ‘person’ object add the code below to the file under the GLOBAL configuration settings:
 
 # Global variables
 person.name=john
 person.age=28
 person.height=165
 
-Add the following under the ï¿½devï¿½ profile:
+Add the following under the ‘dev’ profile:
 # Dev variables
 %dev.person.name=alice
 %dev.person.age=20
 %dev.person.height=154
 
-Add the following under the ï¿½testï¿½ profile:
+Add the following under the ’test’ profile:
 # Test variables
 %test.person.name=mike
 %test.person.age=22
 %test.person.height=170
 
-Add the following under the ï¿½prodï¿½ profile:
+Add the following under the ‘prod’ profile:
 # Production variables
 person.name=tom
 person.age=12
 person.height=100
-Add the following under the ï¿½prototypeï¿½ profile:
+Add the following under the ‘prototype’ profile:
 
 # Prototype variables
 person.name=jane
@@ -3386,7 +3316,6 @@ $ java -jar target/quarkus-config-profiles-1.0-SNAPSHOT-runner.jar
 $ curl http://localhost:8085/bmw/profile-names 
 
 
-
 Homework: 
 
 * Continue from the homework from yesterday (eCommerce project). 
@@ -3460,6 +3389,12 @@ o Set ports for dev, test and production profiles.
 
 
 
+
+
+
+
+
+
 Day 03
 
 * Objectives
@@ -3482,13 +3417,13 @@ o RESTEasy Reactive is the next generation of HTTP framework. It can ensure the 
 * Firstly, smaller response time as there is no thread context switch.
 * Next, less memory and cpu usage as it decreases the usage of threads.
 * Finally, you are not limited by the number of threads.
-* Letï¿½s see how to code a Reactive REST application from the grounds up.
+* Let’s see how to code a Reactive REST application from the grounds up.
 
 o Mutiny is taking a very different angle:
 * Event-Driven - Mutiny places events at the core of its design. With Mutiny, you observe events, react to them, and create elegant and readable processing pipelines. A Ph.D. in functional programming is not required.
 * Navigable - Even with intelligent code completion, classes with hundreds of methods are confusing. Mutiny provides a navigable and explicit API driving you towards the operator you need.
 * Non-Blocking I/O - Mutiny is the perfect companion to tame the asynchronous nature of applications with non-blocking I/O (which powers Quarkus). Declaratively compose operations, transform data, enforce progress, recover from failures, and more.
-* Made for an asynchronous world - Mutiny can be used in any asynchronous application such as event-driven microservices, message-based applications, network utilities, data stream processing, and of courseï¿½? reactive applications!
+* Made for an asynchronous world - Mutiny can be used in any asynchronous application such as event-driven microservices, message-based applications, network utilities, data stream processing, and of course…? reactive applications!
 * Reactive Streams and Converters Built-In - Mutiny is based on the Reactive Streams specification, and so it can be integrated with any other reactive programming library. In addition, it proposes converters to interact with other popular libraries. 
 
 o An event-driven reactive programming API
@@ -3498,7 +3433,7 @@ o Mutiny offers two types that are both event-driven and lazy:
 * A Uni emits a single event (an item or a failure). Unis are convenient to represent asynchronous actions that return 0 or 1 result. A good example is the result of sending a message to a message broker queue.
 * A Multi emits multiple events (n items, 1 failure or 1 completion). Multis can represent streams of items, potentially unbounded. A good example is receiving messages from a message broker queue.
 
-o These two types allow representing any type of interactions. They are event sources. You observe them (subscription) and you get notified when they emit an item, a failure, or, in the case of a bounded Multi, a completion event. When you (the subscriber) receive the event, you can process it (e.g., transform it, filter it). With Mutiny, you are going to write code like onX().action(), which reads as ï¿½on item X do actionï¿½.
+o These two types allow representing any type of interactions. They are event sources. You observe them (subscription) and you get notified when they emit an item, a failure, or, in the case of a bounded Multi, a completion event. When you (the subscriber) receive the event, you can process it (e.g., transform it, filter it). With Mutiny, you are going to write code like onX().action(), which reads as “on item X do action”.
 
 o Uni and Multi streams
 * Persistence operations are designed to use blocking IO for interaction with the database, and are therefore not appropriate for use in a reactive environment. Hibernate Reactive is the first ORM implementation which is able to take advantage of non-blocking database clients
@@ -3519,7 +3454,7 @@ o Mutiny offers two types that are both event-driven and lazy:
 * A Uni emits a single event (an item or a failure). A good example is the result of sending a message to a message broker queue.
 * A Multi emits multiple events (n items, 1 failure or 1 completion). A good example is receiving messages from a message broker queue.
 
-o Firstly, as you can see, when we write persistence logic using Hibernate Reactive, weï¿½ll be working with a reactive Mutiny SessionFactory. Most operations of this interface are non-blocking, and execution of SQL against the database is never performed synchronously.
+o Firstly, as you can see, when we write persistence logic using Hibernate Reactive, we’ll be working with a reactive Mutiny SessionFactory. Most operations of this interface are non-blocking, and execution of SQL against the database is never performed synchronously.
 
 There are 2 important points:
 * The injected Vert.x instance has the io.vertx.mutiny.core.Vertx type which is the Mutiny variant of Vert.x;
@@ -3527,7 +3462,7 @@ There are 2 important points:
 
 o The Mutiny version of the Vert.x APIs also offers:
 * andAwait methods such as sendAndAwait. andAwait indicates that the caller thread is blocked until the result is available. Be aware not to block the event loop / IO thread that way.
-* andForget methods such as writeAndForget. andForget is available for method returning a Uni. andForget indicates that you donï¿½t need the resulting Uni indicating the success or failure of the operation. However, remember that if you donï¿½t subscribe, the operation would not be triggered. andForget manages this for you and manage the subscription.
+* andForget methods such as writeAndForget. andForget is available for method returning a Uni. andForget indicates that you don’t need the resulting Uni indicating the success or failure of the operation. However, remember that if you don’t subscribe, the operation would not be triggered. andForget manages this for you and manage the subscription.
 
 * toMulti methods allowing to transform a Vert.x ReadStream into a Multi
 * toBlockingIterable / toBlockingStream methods allowing to transform a Vert.x ReadStream into a blocking iterable or blocking java.util.Stream
@@ -3544,7 +3479,7 @@ o For that reason, when the body of the method performs some kind of blocking IO
 
 o Although RESTEasy Reactive was built from the ground up to do non-blocking IO and serve requests from the event loop threads (thus avoiding the needless usage of worker pool threads) it can effortlessly work with blocking IO and any piece of code that provides a blocking API (such as Hibernate) without blocking the event loop.
 
-o The only thing you have to do is add @Blocking on your endpoint method or class. Thatï¿½s it! If you use @Blocking you are back to the regular dispatching mechanism: a worker thread is used to execute your method.
+o The only thing you have to do is add @Blocking on your endpoint method or class. That’s it! If you use @Blocking you are back to the regular dispatching mechanism: a worker thread is used to execute your method.
 
 o At a high level it this looks like this:
 
@@ -3790,17 +3725,19 @@ $ docker run --name postgres-quarkus-reactive -p 5432:5432 -e POSTGRES_USER=quar
 
 o Ensure that required extensions for the project have been added
 
-$ mvnw.cmd  quarkus:add-extension -Dextensions="reactive-pg-client" 
 
 o Update the application.properties file to add the database configuration to the application. 
 
+
+# drop and create the database at startup (use `update` to only update the schema)
+quarkus.hibernate-orm.database.generation=drop-and-create
+quarkus.hibernate-orm.sql-load-script=import.sql
 
 quarkus.datasource.db-kind=postgresql
 quarkus.datasource.username=quarkus_test
 quarkus.datasource.password=quarkus_test
 quarkus.datasource.reactive.url=postgresql://localhost:5432/quarkus_test
 myapp.schema.create=true
-
 
 
 o Create a child package called db, to store all the database files in that package:
@@ -3976,17 +3913,6 @@ $ taskkill /F /PID pid_number
 * If not up, then start the dev server up
 $ mvnw.cmd  compile quarkus:dev
 
-
-* The start-up of the server could fail to compile because of both resteasy reactive and mutiny reactive, and you will have to comment out the Jackson reactive dependency 
-
-$ mvnw.cmd  compile quarkus:dev
-
-
-* Reload the project by using maven tool
-
-* Using command line, add a new car in the database
-$ curl --header "Content-Type: application/json" --request POST --data "{\"model\":\"760li\", \"year\":\"2021\", \"color\":\"Shining Shaddow Special\", \"price\":\"R3,570,664.00\"}" http://localhost:8080/bmwcars
-
 * Open another terminal and run the following:
 $ curl http://localhost:8080/bmwcars  
 
@@ -4134,6 +4060,21 @@ public Uni<Response> delete(Long id) {
             .onItem().transform(deleted -> deleted ? Response.Status.NO_CONTENT : Response.Status.NOT_FOUND)
             .onItem().transform(status -> Response.status(status).build());
 }
+
+
+
+* The start-up of the server could fail to compile because of both resteasy reactive and mutiny reactive, and you will have to comment out the Jackson reactive dependency 
+
+$ mvnw.cmd  compile quarkus:dev
+
+
+* Reload the project by using maven tool
+
+* Using command line, add a new car in the database
+$ curl --header "Content-Type: application/json" --request POST --data "{\"model\":\"760li\", \"year\":\"2021\", \"color\":\"Shining Shaddow Special\", \"price\":\"R3,570,664.00\"}" http://localhost:8080/bmwcars
+
+
+* Go to the following URL to see the updated BMW car list using the URL below:  http://localhost:8080/bmwcars   
 
 * Now create a frontend to use a browser to interact with the application.
 o Navigate to src/main/resource/META-INF.resource and create a new page, bmwshop.html with the following contents
@@ -4406,7 +4347,7 @@ o Add the Path and ApplicationScope
 
 
 
-package za.co.bmw.workshop.day.three.websocket;
+package za.co.bmw.workshop.day.three.websockets;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.websocket.server.ServerEndpoint;
@@ -4431,6 +4372,20 @@ import javax.websocket.OnOpen;
 import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
 import javax.websocket.Session;
+
+
+o Implement the broadcast() method
+
+
+private void broadcast(String message) {
+    sessions.values().forEach(s -> {
+        s.getAsyncRemote().sendObject(message, result ->  {
+            if (result.getException() != null) {
+                System.out.println("Unable to send message: " + result.getException());
+            }
+        });
+    });
+}
 
 
 o Implement the onOpen() method
@@ -4474,21 +4429,6 @@ public void onMessage(String message, @PathParam("username") String username) {
         broadcast(">> " + username + ": " + message);
     }
 }
-
-
-o Implement the broadcast() method
-
-
-private void broadcast(String message) {
-    sessions.values().forEach(s -> {
-        s.getAsyncRemote().sendObject(message, result ->  {
-            if (result.getException() != null) {
-                System.out.println("Unable to send message: " + result.getException());
-            }
-        });
-    });
-}
-
 
 
 * Here is the full ChatSocket class implementation
@@ -4696,6 +4636,8 @@ $ curl http://localhost:8080/chat.html
 
 * Go to the following URL to see the updated port numbers using the following URL:  http://localhost:8080/chat.html  
 
+
+
 Messaging using Kafka
 
 * Architectural differences
@@ -4731,6 +4673,9 @@ $ mvnw.cmd  quarkus:add-extension -Dextensions="resteasy-reactive-jackson, small
 $ cd practice/
 $ docker compose -f docker-compose.yaml up -d
 
+
+* Create a child package called websocket :
+o za.co.bmw.workshop.day.three.kafka
 
 * Create a class to demonstrate a two-way chat communication between two users. Class name: Car with variables model and year.
 
@@ -5056,7 +5001,7 @@ $ mvnw.cmd  compile quarkus:dev
 Using Dev UI
 
 * Architectural differences
-o Feature sets aside, the Quarkus application that is run under dev mode differs architecturally from the production application (i.e. the one that is run using java -jar ï¿½).
+o Feature sets aside, the Quarkus application that is run under dev mode differs architecturally from the production application (i.e. the one that is run using java -jar …).
 
 o In dev mode, Quarkus uses a ClassLoader hierarchy that enables the live reload of user code without requiring a rebuild and restart of the application.
 
@@ -5197,7 +5142,7 @@ Packaging and Distributing Native Applications
 Producing a native executable
 * The native executable for our application will contain the application code, required libraries, Java APIs, and a reduced version of a VM. The smaller VM base improves the startup time of the application and produces a minimal disk footprint.
 
-* If you have generated the application from the previous tutorial, you can find in theï¿½pom.xmlï¿½the followingï¿½profile:
+* If you have generated the application from the previous tutorial, you can find in the pom.xml the following profile:
 <profiles>
     <profile>
         <id>native</id>
@@ -5213,13 +5158,13 @@ o fast-jar or legacy-jar
 o create a uber-jar or deliver the quarkus-app-folder
 
 * What is a uber-jar?
-o ï¿½ber is the German word for above or over (itï¿½s actually cognate with the English over). Hence, in this context, an uber-jar is an "over-jar", one level up from a simple JAR (a), defined as one that contains both your package and all its dependencies in one single JAR file. The name can be thought to come from the same stable as ultrageek, superman, hyperspace, and metadata, which all have similar meanings of "beyond the normal".
+o Über is the German word for above or over (it’s actually cognate with the English over). Hence, in this context, an uber-jar is an "over-jar", one level up from a simple JAR (a), defined as one that contains both your package and all its dependencies in one single JAR file. The name can be thought to come from the same stable as ultrageek, superman, hyperspace, and metadata, which all have similar meanings of "beyond the normal".
 o uber-jar is also known as fat jar i.e. jar with dependencies. There are three common methods for constructing an uber jar:
-1. Unshaded: Unpack all JAR files, then repack them into a single JAR. Works with Javaï¿½s default class loader. Toolsï¿½maven-assembly-plugin
-2. Shaded: Same as unshaded, but rename (i.e., "shade") all packages of all dependencies. Works with Javaï¿½s default class loader. Avoids some (not all) dependency version clashes. Toolsï¿½maven-shade-plugin
-3. JAR of JARs: The final JAR file contains the other JAR files embedded within. Avoids dependency version clashes. All resource files are preserved. Tools:ï¿½Eclipse JAR File Exporter
+1. Unshaded: Unpack all JAR files, then repack them into a single JAR. Works with Java’s default class loader. Tools maven-assembly-plugin
+2. Shaded: Same as unshaded, but rename (i.e., "shade") all packages of all dependencies. Works with Java’s default class loader. Avoids some (not all) dependency version clashes. Tools maven-shade-plugin
+3. JAR of JARs: The final JAR file contains the other JAR files embedded within. Avoids dependency version clashes. All resource files are preserved. Tools: Eclipse JAR File Exporter
 How to change the package type?
-* You have to change theï¿½quarkus.package.type-property
+* You have to change the quarkus.package.type-property
 * options:
 o jar ? fast-jar
 o legacy-jar
@@ -5317,7 +5262,67 @@ o http://localhost:8088/hello/greeting/thato
 o http://localhost:8088/hello/course-details 
 o http://localhost:8088/hello/more-details 
 
+* Then stop the application by using Ctrl + C or Ctrl + Z
+
 Practice III: Packaging your application as a Kubernetes image 
+
+* Go to Docker Hub to create a repository. Click on https://hub.docker.com/, then login with.
+o Click on Repositories 
+o Click on Create Repository button to create a repository
+o Make note of your repository name. For the sake of this training, I will name mine bmwtraining
+
+* Then open Terminal to login on your docker local machine. 
+$ docker login
+
+* List the images that are created in the docker
+$ docker images
+
+
+
+Note: Make note of the docker image that you have just uploaded on the previous exercise.
+
+* Upload to hub.docker.com. 
+
+$ docker push htl-bmwdayone/hello
+
+
+* Start the container using the Image we just built just to make sure that the image can be instantiated as a container with no issues.
+
+$ docker container run -d -it --name bmwdayone htl-bmwdayone/hello:latest
+
+
+* Show the container that you have just created above 
+
+$ docker container list
+
+
+* A Container cannot run standalone in Kubernetes it must always run inside a POD. So Creating a POD is technically creating a Container
+
+$ kubectl run bmwtraining-pod --image=htl-bmwdayone/hello --port=8088 --generator=run/v1
+
+
+* Make Sure the POD is created and Ready.
+
+$ kubectl get pods|egrep -i "^NAME|bmwtraining"
+
+
+* Validate the pod creation and find more information
+
+$ kubectl get pods
+
+$ kubectl get pods/bmwtraining-pod-jsrvz
+
+
+$ kubectl describe pods/redis-pod-jsrvz
+
+
+* Validation: check the newly created pod in Kubernetes Dashboard (GUI) – minikube
+
+$ minikube dashboard
+
+
+
+Homework:
 
 NB: Run the following exercises on CMD as an Administrator. 
 
@@ -5374,27 +5379,27 @@ $ mvn clean package -Pnative
 
 * Reload the project using Maven. Right click on the project -> Maven -> Reload Project
 
-* Download the Visual Studio Build Tools (C development environment) fromï¿½visualstudio.microsoft.com.
+* Download the Visual Studio Build Tools (C development environment) from visualstudio.microsoft.com.
 
-* Start the Visual Studio Build Tools installation by clicking on theï¿½.exeï¿½file, and then press Continue:
+* Start the Visual Studio Build Tools installation by clicking on the .exe file, and then press Continue:
 
 
-* Check theï¿½Desktop development with C++ï¿½box in the main window. Also, on the right side under Installation Details, chooseï¿½Windows 10 SDK,ï¿½and click theï¿½Installï¿½button.
+* Check the Desktop development with C++ box in the main window. Also, on the right side under Installation Details, choose Windows 10 SDK, and click the Install button.
 
 * After the installation completes, reboot your system.
 o WINDOWS 10 SDK:
-* Next, if you haveï¿½Visual Studio 2019ï¿½installed, you will need to ensureï¿½Windows 10 SDKï¿½is available too:
+* Next, if you have Visual Studio 2019 installed, you will need to ensure Windows 10 SDK is available too:
 o Open the Visual Studio Installer:
 
 
-* Under theï¿½Installedï¿½tab, clickï¿½Modifyï¿½and chooseï¿½Individual Components:
+* Under the Installed tab, click Modify and choose Individual Components:
 
-* Then scroll to the bottom and check ifï¿½Windows 10 SDKï¿½is installed and confirm the build tools are installed:
+* Then scroll to the bottom and check if Windows 10 SDK is installed and confirm the build tools are installed:
 
 
-Now that you have the Windows 10 SDK and Visual Studio tooling installed, you can start usingï¿½GraalVM Native Image.
+Now that you have the Windows 10 SDK and Visual Studio tooling installed, you can start using GraalVM Native Image.
 
-* On Windows, theï¿½native-imageï¿½builder will only work when itï¿½s executed from theï¿½x64 Native Tools Command Prompt. The command for initiating an x64 Native Tools command prompt is different if you only have the Visual Studio Build Tools installed, versus if you have the full VS Code 2019 installed.
+* On Windows, the native-image builder will only work when it’s executed from the x64 Native Tools Command Prompt. The command for initiating an x64 Native Tools command prompt is different if you only have the Visual Studio Build Tools installed, versus if you have the full VS Code 2019 installed.
 
 * Alternatively, you can launch a Dev command prompt from the Visual Studio 2019 interface:
 
@@ -5443,11 +5448,11 @@ TIP: Most errors are caused by the Testing classes (error 404), end point testin
 Quarkus Health and Computing Stats
 
 
-* The general status of the health check is computed as a logical AND of all the declared health check procedures. The checks array is empty as we have not specified any health check procedure yet so letï¿½s define some.
+* The general status of the health check is computed as a logical AND of all the declared health check procedures. The checks array is empty as we have not specified any health check procedure yet so let’s define some.
 
 * Health checks are a necessary piece of any application, especially when running in a Kubernetes environment like OpenShift. When the pods are being scheduled and started, it tells Kubernetes when they are ready to be added to the service to accept requests.
 
-* However, there is actual two pieces to health checking. The liveness check provides feedback on whether application is up and running. Of course, we donï¿½t want to route requests to something not running. But the more important piece of health checking is its sibling, the readiness check. The readiness check not only provides feedback that the application is up and running, but that itï¿½s ready to begin serving. Many times, there are gaps between the two.
+* However, there is actual two pieces to health checking. The liveness check provides feedback on whether application is up and running. Of course, we don’t want to route requests to something not running. But the more important piece of health checking is its sibling, the readiness check. The readiness check not only provides feedback that the application is up and running, but that it’s ready to begin serving. Many times, there are gaps between the two.
 
 * For example, with our Customer API, we will want to check to make sure the integration points are ready and connected. We want to make sure the database is there and up to speed. We would also want to check that we can connect out to any messaging infrastructure, such as a Kafka cluster, prior to serving any load. There are other use cases as well, such as cache loading, which will need to be performed prior to joining the service.
 
@@ -5462,7 +5467,7 @@ Quarkus Health and Computing Stats
 * All services must provide an implementation of the HealthCheck interface, which is used to verify their health. MicroProfile Health offers health checks for startup, liveness, and readiness. A startup check allows applications to define startup probes that are used for initial verification of the application before the Liveness probe takes over. For example, a startup check might check which applications require additional startup time on their first initialization. A liveness check allows third-party services to determine whether a microservice is running. If the liveness check fails, the application can be terminated. For example, a liveness check might fail if the application runs out of memory. A readiness check allows third-party services, such as Kubernetes, to determine whether a microservice is ready to process requests. For example, a readiness check might check dependencies, such as database connections.
 
 
-* Letï¿½s break down the test cases:
+* Let’s break down the test cases:
 o The testStartup() test case compares the generated health report for the startup checks with the actual status of the services.
 o The testLiveness() test case compares the generated health report for the liveness checks with the actual status of the services.
 o The testReadiness() test case compares the generated health report for the readiness checks with the actual status of the services.
@@ -5474,7 +5479,7 @@ Health Checks are important in platforms like Kubernetes because it allows the i
 
 * There are two different types of health checks:
 o Liveness probes tell your platform if your application is running ok or not. When your liveness probe is down, your platform might restart your instance to guarantee that you have the minimum required amount of running instances in production.
-o Readiness probes tell your platform if your application is warm enough to reply to requests in a reasonable amount of time. Java applications, for example, might need some time to warm up, so the readiness probe should be up only when itï¿½s ready to reply to a request in a timely manner. Checks that depend on other services should be implemented as readiness probes: if a remote service is down, restarting your application wonï¿½t fix the issue.
+o Readiness probes tell your platform if your application is warm enough to reply to requests in a reasonable amount of time. Java applications, for example, might need some time to warm up, so the readiness probe should be up only when it’s ready to reply to a request in a timely manner. Checks that depend on other services should be implemented as readiness probes: if a remote service is down, restarting your application won’t fix the issue.
 
 Running the health check
 Importing the smallrye-health extension directly exposes three REST endpoints:
@@ -5499,13 +5504,13 @@ In dev mode, all your heath checks are visible in health UI: http://localhost:80
 
 * Some extensions may provide default health checks, including that the extension will automatically register its health checks. For example, quarkus-agroal (that is used to manage Quarkus datasources) automatically registers a readiness health check that will validate each datasource.
 
-* Since the readiness of the database is already assessed just by adding those extensions, we should look into defining health checks for other dependencies that we have. As we depend on the availability of https://www.fruityvice.com, letï¿½s create a new ReadinessProbe to assess its availability prior to using it.
+* Since the readiness of the database is already assessed just by adding those extensions, we should look into defining health checks for other dependencies that we have. As we depend on the availability of https://www.fruityvice.com, let’s create a new ReadinessProbe to assess its availability prior to using it.
 
 
 * Metrics
 o When running applications in production we need to send monitoring information to some services like Prometheus.
 
-* Quarkus provides JVM and other statistics out-of-box with the Metrics extension, but itï¿½s very valuable for our application to produce its own metrics. Letï¿½s see how we can achieve it in this chapter.
+* Quarkus provides JVM and other statistics out-of-box with the Metrics extension, but it’s very valuable for our application to produce its own metrics. Let’s see how we can achieve it in this chapter.
 
 * As you can see health check procedures are defined as implementations of the HealthCheck interface which are defined as CDI beans with the one of the following CDI qualifiers:
 o @Liveness - the liveness check accessible at /health/live
@@ -5709,7 +5714,7 @@ $ mvnw.cmd  clean compile quarkus:dev
 
 * Navigate to the RaceCarResource file that was created on the creation of the project. 
 
-o Add a Path variable to point to @Path(ï¿½/infoï¿½) 
+o Add a Path variable to point to @Path(“/info”) 
 o Also make the updates that were performed on the hello() method to change the String to be returned. 
 
 
@@ -6412,7 +6417,7 @@ o Navigate to the following end points to test the application:
 o Use Postman to see the API documentation using the URL above
 * http://localhost:8083/q/openapi 
 
-o Weï¿½re now finished with the Non-BMW Cars Microservices. Switch off the dev server. Either use q or Ctrl + C to switch off the server. Weï¿½ll return to it at a later stage. 
+o We’re now finished with the Non-BMW Cars Microservices. Switch off the dev server. Either use q or Ctrl + C to switch off the server. We’ll return to it at a later stage. 
 
 Practice II: Implement the BMW Cars Microservices using Reactive
 
@@ -7130,7 +7135,7 @@ o Navigate to the following end points to test the application:
 o Use Postman to see the API documentation using the URL above
 * http://localhost:8093/q/openapi 
 
-o Weï¿½re now finished with the BMW Cars Microservices. Switch off the dev server. Either use q or Ctrl + C to switch off the server. Weï¿½ll return to it at a later stage. 
+o We’re now finished with the BMW Cars Microservices. Switch off the dev server. Either use q or Ctrl + C to switch off the server. We’ll return to it at a later stage. 
 
 
 
@@ -7584,7 +7589,7 @@ o http://localhost:8080/othercars/random
 
 * Switch off the dev server to continue with the development work.
 
-* Now we want to implement fault tolerance because weï¿½re connecting to external service:
+* Now we want to implement fault tolerance because we’re connecting to external service:
 o Add the fault tolerance extension to project by running the following command.
 
 $ mvnw.cmd  quarkus:add-extension -Dextensions='smallrye-fault-tolerance' 
@@ -7706,7 +7711,7 @@ o http://localhost:8080/bmwcars/all
 o http://localhost:8080/bmwcars/random   
 
 
-Now that weï¿½re finished with the client proxy or vice, we can now focus on 
+Now that we’re finished with the client proxy or vice, we can now focus on 
 
 * Then start working on the actual competition between the two types of cars, the BMW Race Cars and the Other Race Cars.
 o Go back to the za.co.bmw.workshop.kyalami.racetrack package. 
@@ -8492,7 +8497,7 @@ $(document).ready(function () {
 $ mvnw.cmd  clean compile quarkus:dev 
 
 
-* Go to the following URL to see the UI youï¿½ve just worked on for the Kylami Racetrack project. 
+* Go to the following URL to see the UI you’ve just worked on for the Kylami Racetrack project. 
 o http://localhost:9091/landing.html 
 
 Play around with the application to view the whole application.
@@ -8578,26 +8583,26 @@ How to set JAVA_HOME & JAVAC in Windows 10
 
 1. Open Advanced System Settings
 
-In Windows 10 press Windows key + Pause Key, This will open the System Settings window. Go toï¿½Change settingsï¿½and select theï¿½Advancedï¿½tab.
+In Windows 10 press Windows key + Pause Key, This will open the System Settings window. Go to Change settings and select the Advanced tab.
 Alternatively:
-Open ï¿½Windows searchï¿½ ï¿½ you will find it next to the Windows logo
+Open “Windows search” – you will find it next to the Windows logo
 
 
 	
 
-1. In the search field type in ï¿½ï¿½advanced system settings
+1. In the search field type in – advanced system settings
 2. Click on the match on top of the list
 
 2. Set JAVA_HOME Environment variable
-In the ï¿½System Properties windowï¿½ click ï¿½Environment Variablesï¿½ï¿½
+In the “System Properties window” click “Environment Variables…”
 
-Under ï¿½System variablesï¿½ click the ï¿½Newï¿½ï¿½ button and enter JAVA_HOME as ï¿½Variable nameï¿½ and the path to your Java JDK directory under ï¿½Variable valueï¿½
+Under “System variables” click the “New…” button and enter JAVA_HOME as “Variable name” and the path to your Java JDK directory under “Variable value”
 
 3. Update System PATH
-1. In ï¿½Environment Variablesï¿½ window under ï¿½System variablesï¿½ select Path
-2. Click on ï¿½Editï¿½ï¿½
-3. In ï¿½Edit environment variableï¿½ window click ï¿½Newï¿½
-4. Type inï¿½%JAVA_HOME%\bin
+1. In “Environment Variables” window under “System variables” select Path
+2. Click on “Edit…”
+3. In “Edit environment variable” window click “New”
+4. Type in %JAVA_HOME%\bin
 
 4. Test your configuration
 Open a new command prompt and type in:
@@ -8609,7 +8614,7 @@ Now type in:
 
 javac -version
 
-this will print out the java compiler version if the Path variable is set correctly orï¿½ï¿½javac is not recognized as an internal or external commandï¿½ï¿½ï¿½otherwise. UPDATE: in the comments below, several suggest running the command prompt as administrator if you see the error message. Please make sure you try this option
+this will print out the java compiler version if the Path variable is set correctly or “javac is not recognized as an internal or external command…” otherwise. UPDATE: in the comments below, several suggest running the command prompt as administrator if you see the error message. Please make sure you try this option
 
 
 
